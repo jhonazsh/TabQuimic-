@@ -1,0 +1,877 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TabPeQ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/principal-estilos.css">
+	<script src="js/jquery-2.0.2.js"></script>
+	<script src="js/show-big-elementos.js"></script>
+</head>
+<body>
+	<div class="row">
+		<div class="col-xs-12 col-sm-1 col-md-3">
+			<div class="elemento">
+				<div class="btn-group btn-group-xs">
+					<button type="button" class="btn btn-default">Información</button>
+				  	<button type="button" class="btn btn-default">Modelado</button>
+				</div>
+				<div class="e-muestra">
+					<div class="gran-h">
+						<div class="big-h-numero" id="big-h-num"></div>
+						<div class="big-h-simbolo" id="big-h-simb"></div>
+						<div class="big-h-nombre" id="big-h-nomb"></div>
+					</div>
+
+					<div class="gran-he">
+						<div class="big-h-numero" id="big-he-num"></div>
+						<div class="big-h-simbolo" id="big-he-simb"></div>
+						<div class="big-h-nombre" id="big-he-nomb"></div>
+					</div>
+
+					<div class="gran-li">
+						<div class="big-h-numero" id="big-li-num"></div>
+						<div class="big-h-simbolo" id="big-li-simb"></div>
+						<div class="big-h-nombre" id="big-li-nomb"></div>
+					</div>
+
+					<div class="gran-be">
+						<div class="big-h-numero" id="big-be-num"></div>
+						<div class="big-h-simbolo" id="big-be-simb"></div>
+						<div class="big-h-nombre" id="big-be-nomb"></div>
+					</div>
+
+					<div class="gran-b">
+						<div class="big-h-numero" id="big-b-num"></div>
+						<div class="big-h-simbolo" id="big-b-simb"></div>
+						<div class="big-h-nombre" id="big-b-nomb"></div>
+					</div>
+
+					<div class="gran-c">
+						<div class="big-h-numero" id="big-c-num"></div>
+						<div class="big-h-simbolo" id="big-c-simb"></div>
+						<div class="big-h-nombre" id="big-c-nomb"></div>
+					</div>
+
+					<div class="gran-n">
+						<div class="big-h-numero" id="big-n-num"></div>
+						<div class="big-h-simbolo" id="big-n-simb"></div>
+						<div class="big-h-nombre" id="big-n-nomb"></div>
+					</div>
+
+					<div class="gran-o">
+						<div class="big-h-numero" id="big-o-num"></div>
+						<div class="big-h-simbolo" id="big-o-simb"></div>
+						<div class="big-h-nombre" id="big-o-nomb"></div>
+					</div>
+
+					<div class="gran-f">
+						<div class="big-h-numero" id="big-f-num"></div>
+						<div class="big-h-simbolo" id="big-f-simb"></div>
+						<div class="big-h-nombre" id="big-f-nomb"></div>
+					</div>
+
+					<div class="gran-ne">
+						<div class="big-h-numero" id="big-ne-num"></div>
+						<div class="big-h-simbolo" id="big-ne-simb"></div>
+						<div class="big-h-nombre" id="big-ne-nomb"></div>
+					</div>
+
+					<div class="gran-na">
+						<div class="big-h-numero" id="big-na-num"></div>
+						<div class="big-h-simbolo" id="big-na-simb"></div>
+						<div class="big-h-nombre" id="big-na-nomb"></div>
+					</div>
+
+					<div class="gran-mg">
+						<div class="big-h-numero" id="big-mg-num"></div>
+						<div class="big-h-simbolo" id="big-mg-simb"></div>
+						<div class="big-h-nombre" id="big-mg-nomb"></div>
+					</div>
+
+					<div class="gran-al">
+						<div class="big-h-numero" id="big-al-num"></div>
+						<div class="big-h-simbolo" id="big-al-simb"></div>
+						<div class="big-h-nombre" id="big-al-nomb"></div>
+					</div>
+
+					<div class="gran-si">
+						<div class="big-h-numero" id="big-si-num"></div>
+						<div class="big-h-simbolo" id="big-si-simb"></div>
+						<div class="big-h-nombre" id="big-si-nomb"></div>
+					</div>
+
+					<div class="gran-p">
+						<div class="big-h-numero" id="big-p-num"></div>
+						<div class="big-h-simbolo" id="big-p-simb"></div>
+						<div class="big-h-nombre" id="big-p-nomb"></div>
+					</div>
+
+					<div class="gran-s">
+						<div class="big-h-numero" id="big-s-num"></div>
+						<div class="big-h-simbolo" id="big-s-simb"></div>
+						<div class="big-h-nombre" id="big-s-nomb"></div>
+					</div>
+
+					<div class="gran-cl">
+						<div class="big-h-numero" id="big-cl-num"></div>
+						<div class="big-h-simbolo" id="big-cl-simb"></div>
+						<div class="big-h-nombre" id="big-cl-nomb"></div>
+					</div>
+
+					<div class="gran-ar">
+						<div class="big-h-numero" id="big-ar-num"></div>
+						<div class="big-h-simbolo" id="big-ar-simb"></div>
+						<div class="big-h-nombre" id="big-ar-nomb"></div>
+					</div>
+
+					<div class="gran-k">
+						<div class="big-h-numero" id="big-k-num"></div>
+						<div class="big-h-simbolo" id="big-k-simb"></div>
+						<div class="big-h-nombre" id="big-k-nomb"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-xs-12 col-sm-11 col-md-9">
+			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="">TabQuimic</a>
+				</div>
+  				<ul class="nav navbar-nav">
+  					<li><a href="#">Link</a></li>
+  					<li><a href="#">Link</a></li>
+  					<li><a href="#">Link</a></li>
+  				</ul>
+			</nav>
+
+			<div class="tablape col-xs-12">
+				<div class="fil">
+					<div class="cel" id="h">
+						<div class="num" id="h-numero"></div>
+						<div class="simb" id="h-simbolo"></div>
+						<div class="nomb" id="h-nombre"></div>
+					</div>
+					
+					<div class="cel sepuno" id="he">
+						<div class="num" id="he-numero"></div>
+						<div class="simb" id="he-simbolo"></div>
+						<div class="nomb" id="he-nombre"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel" id="li">
+						<div class="num" id="li-numero"></div>
+						<div class="simb" id="li-simbolo"></div>
+						<div class="nomb" id="li-nombre"></div>
+					</div>
+					<div class="cel" id="be">
+						<div class="num" id="be-numero"></div>
+						<div class="simb" id="be-simbolo"></div>
+						<div class="nomb" id="be-nombre"></div>
+					</div>
+					<div class="cel sepdos" id="b">
+						<div class="num" id="b-numero"></div>
+						<div class="simb" id="b-simbolo"></div>
+						<div class="nomb" id="b-nombre"></div>
+					</div>
+					<div class="cel" id="c">
+						<div class="num" id="c-numero"></div>
+						<div class="simb" id="c-simbolo"></div>
+						<div class="nomb" id="c-nombre"></div>
+					</div>
+					<div class="cel" id="n">
+						<div class="num" id="n-numero"></div>
+						<div class="simb" id="n-simbolo"></div>
+						<div class="nomb" id="n-nombre"></div>
+					</div>
+					<div class="cel" id="o">
+						<div class="num" id="o-numero"></div>
+						<div class="simb" id="o-simbolo"></div>
+						<div class="nomb" id="o-nombre"></div>
+					</div>
+					<div class="cel" id="f">
+						<div class="num" id="f-numero"></div>
+						<div class="simb" id="f-simbolo"></div>
+						<div class="nomb" id="f-nombre"></div>
+					</div>
+					<div class="cel" id="ne">
+						<div class="num" id="ne-numero"></div>
+						<div class="simb" id="ne-simbolo"></div>
+						<div class="nomb" id="ne-nombre"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel" id="na">
+						<div class="num" id="na-numero"></div>
+						<div class="simb" id="na-simbolo"></div>
+						<div class="nomb" id="na-nombre"></div>
+					</div>
+					<div class="cel" id="mg">
+						<div class="num" id="mg-numero"></div>
+						<div class="simb" id="mg-simbolo"></div>
+						<div class="nomb" id="mg-nombre"></div>
+					</div>
+					
+					<div class="cel sepdos" id="al">
+						<div class="num" id="al-numero"></div>
+						<div class="simb" id="al-simbolo"></div>
+						<div class="nomb" id="al-nombre"></div>
+					</div>
+					<div class="cel" id="si">
+						<div class="num" id="si-numero"></div>
+						<div class="simb" id="si-simbolo"></div>
+						<div class="nomb" id="si-nombre"></div>
+					</div>
+					<div class="cel" id="p">
+						<div class="num" id="p-numero"></div>
+						<div class="simb" id="p-simbolo"></div>
+						<div class="nomb" id="p-nombre"></div>
+					</div>
+					<div class="cel" id="s">
+						<div class="num" id="s-numero"></div>
+						<div class="simb" id="s-simbolo"></div>
+						<div class="nomb" id="s-nombre"></div>
+					</div>
+					<div class="cel" id="cl">
+						<div class="num" id="cl-numero"></div>
+						<div class="simb" id="cl-simbolo"></div>
+						<div class="nomb" id="cl-nombre"></div>
+					</div>
+					<div class="cel" id="ar">
+						<div class="num" id="ar-numero"></div>
+						<div class="simb" id="ar-simbolo"></div>
+						<div class="nomb" id="ar-nombre"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel">
+						<div class="num" id="k-numero"></div>
+						<div class="simb" id="k-simbolo"></div>
+						<div class="nomb" id="k-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ca-numero"></div>
+						<div class="simb" id="ca-simbolo"></div>
+						<div class="nomb" id="ca-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="sc-numero"></div>
+						<div class="simb" id="sc-simbolo"></div>
+						<div class="nomb" id="sc-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ti-numero"></div>
+						<div class="simb" id="ti-simbolo"></div>
+						<div class="nomb" id="ti-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="v-numero"></div>
+						<div class="simb" id="v-simbolo"></div>
+						<div class="nomb" id="v-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="cr-numero"></div>
+						<div class="simb" id="cr-simbolo"></div>
+						<div class="nomb" id="cr-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="mn-numero"></div>
+						<div class="simb" id="mn-simbolo"></div>
+						<div class="nomb chik" id="mn-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="fe-numero"></div>
+						<div class="simb" id="fe-simbolo"></div>
+						<div class="nomb" id="fe-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="co-numero"></div>
+						<div class="simb" id="co-simbolo"></div>
+						<div class="nomb" id="co-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ni-numero"></div>
+						<div class="simb" id="ni-simbolo"></div>
+						<div class="nomb" id="ni-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="cu-numero"></div>
+						<div class="simb" id="cu-simbolo"></div>
+						<div class="nomb" id="cu-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="zn-numero"></div>
+						<div class="simb" id="zn-simbolo"></div>
+						<div class="nomb" id="zn-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ga-numero"></div>
+						<div class="simb" id="ga-simbolo"></div>
+						<div class="nomb" id="ga-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ge-numero"></div>
+						<div class="simb" id="ge-simbolo"></div>
+						<div class="nomb" id="ge-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="as-numero"></div>
+						<div class="simb" id="as-simbolo"></div>
+						<div class="nomb" id="as-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="se-numero"></div>
+						<div class="simb" id="se-simbolo"></div>
+						<div class="nomb" id="se-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="br-numero"></div>
+						<div class="simb" id="br-simbolo"></div>
+						<div class="nomb" id="br-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="kr-numero"></div>
+						<div class="simb" id="kr-simbolo"></div>
+						<div class="nomb" id="kr-nombre"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel">
+						<div class="num" id="rb-numero"></div>
+						<div class="simb" id="rb-simbolo"></div>
+						<div class="nomb" id="rb-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="sr-numero"></div>
+						<div class="simb" id="sr-simbolo"></div>
+						<div class="nomb" id="sr-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="y-numero"></div>
+						<div class="simb" id="y-simbolo"></div>
+						<div class="nomb" id="y-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="zr-numero"></div>
+						<div class="simb" id="zr-simbolo"></div>
+						<div class="nomb" id="zr-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="nb-numero"></div>
+						<div class="simb" id="nb-simbolo"></div>
+						<div class="nomb" id="nb-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="mo-numero"></div>
+						<div class="simb" id="mo-simbolo"></div>
+						<div class="nomb" id="mo-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="tc-numero"></div>
+						<div class="simb" id="tc-simbolo"></div>
+						<div class="nomb" id="tc-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ru-numero"></div>
+						<div class="simb" id="ru-simbolo"></div>
+						<div class="nomb" id="ru-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="rh-numero"></div>
+						<div class="simb" id="rh-simbolo"></div>
+						<div class="nomb" id="rh-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="pd-numero"></div>
+						<div class="simb" id="pd-simbolo"></div>
+						<div class="nomb" id="pd-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ag-numero"></div>
+						<div class="simb" id="ag-simbolo"></div>
+						<div class="nomb" id="ag-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="cd-numero"></div>
+						<div class="simb" id="cd-simbolo"></div>
+						<div class="nomb" id="cd-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="in-numero"></div>
+						<div class="simb" id="in-simbolo"></div>
+						<div class="nomb" id="in-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="sn-numero"></div>
+						<div class="simb" id="sn-simbolo"></div>
+						<div class="nomb" id="sn-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="sb-numero"></div>
+						<div class="simb" id="sb-simbolo"></div>
+						<div class="nomb" id="sb-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="te-numero"></div>
+						<div class="simb" id="te-simbolo"></div>
+						<div class="nomb" id="te-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="i-numero"></div>
+						<div class="simb" id="i-simbolo"></div>
+						<div class="nomb" id="i-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="xe-numero"></div>
+						<div class="simb" id="xe-simbolo"></div>
+						<div class="nomb" id="xe-nombre"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel">
+						<div class="num" id="cs-numero"></div>
+						<div class="simb" id="cs-simbolo"></div>
+						<div class="nomb" id="cs-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ba-numero"></div>
+						<div class="simb" id="ba-simbolo"></div>
+						<div class="nomb" id="ba-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="la-numero"></div>
+						<div class="simb" id="la-simbolo"></div>
+						<div class="nomb" id="la-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="hf-numero"></div>
+						<div class="simb" id="hf-simbolo"></div>
+						<div class="nomb" id="hf-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ta-numero"></div>
+						<div class="simb" id="ta-simbolo"></div>
+						<div class="nomb" id="ta-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="w-numero"></div>
+						<div class="simb" id="w-simbolo"></div>
+						<div class="nomb chik" id="w-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="re-numero"></div>
+						<div class="simb" id="re-simbolo"></div>
+						<div class="nomb" id="re-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="os-numero"></div>
+						<div class="simb" id="os-simbolo"></div>
+						<div class="nomb" id="os-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ir-numero"></div>
+						<div class="simb" id="ir-simbolo"></div>
+						<div class="nomb" id="ir-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="pt-numero"></div>
+						<div class="simb" id="pt-simbolo"></div>
+						<div class="nomb" id="pt-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="au-numero"></div>
+						<div class="simb" id="au-simbolo"></div>
+						<div class="nomb" id="au-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="hg-numero"></div>
+						<div class="simb" id="hg-simbolo"></div>
+						<div class="nomb" id="hg-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="tl-numero"></div>
+						<div class="simb" id="tl-simbolo"></div>
+						<div class="nomb" id="tl-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="pb-numero"></div>
+						<div class="simb" id="pb-simbolo"></div>
+						<div class="nomb" id="pb-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="bi-numero"></div>
+						<div class="simb" id="bi-simbolo"></div>
+						<div class="nomb" id="bi-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="po-numero"></div>
+						<div class="simb" id="po-simbolo"></div>
+						<div class="nomb" id="po-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="at-numero"></div>
+						<div class="simb" id="at-simbolo"></div>
+						<div class="nomb" id="at-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="rn-numero"></div>
+						<div class="simb" id="rn-simbolo"></div>
+						<div class="nomb" id="rn-nombre"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel">
+						<div class="num" id="fr-numero"></div>
+						<div class="simb" id="fr-simbolo"></div>
+						<div class="nomb" id="fr-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ra-numero"></div>
+						<div class="simb" id="ra-simbolo"></div>
+						<div class="nomb" id="ra-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ac-numero"></div>
+						<div class="simb" id="ac-simbolo"></div>
+						<div class="nomb" id="ac-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="rf-numero"></div>
+						<div class="simb" id="rf-simbolo"></div>
+						<div class="nomb chik" id="rf-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="db-numero"></div>
+						<div class="simb" id="db-simbolo"></div>
+						<div class="nomb" id="db-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="sg-numero"></div>
+						<div class="simb" id="sg-simbolo"></div>
+						<div class="nomb" id="sg-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="bh-numero"></div>
+						<div class="simb" id="bh-simbolo"></div>
+						<div class="nomb" id="bh-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="hs-numero"></div>
+						<div class="simb" id="hs-simbolo"></div>
+						<div class="nomb" id="hs-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="mt-numero"></div>
+						<div class="simb" id="mt-simbolo"></div>
+						<div class="nomb" id="mt-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ds-numero"></div>
+						<div class="simb" id="ds-simbolo"></div>
+						<div class="nomb chik" id="ds-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="rg-numero"></div>
+						<div class="simb" id="rg-simbolo"></div>
+						<div class="nomb chik" id="rg-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="cn-numero"></div>
+						<div class="simb" id="cn-simbolo"></div>
+						<div class="nomb chik" id="cn-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="uut-numero"></div>
+						<div class="simb" id="uut-simbolo"></div>
+						<div class="nomb" id="uut-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="fl-numero"></div>
+						<div class="simb" id="fl-simbolo"></div>
+						<div class="nomb" id="fl-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="uup-numero"></div>
+						<div class="simb" id="uup-simbolo"></div>
+						<div class="nomb chik" id="uup-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="lv-numero"></div>
+						<div class="simb" id="lv-simbolo"></div>
+						<div class="nomb chik" id="lv-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="uus-numero"></div>
+						<div class="simb" id="uus-simbolo"></div>
+						<div class="nomb chik" id="uus-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="uuo-numero"></div>
+						<div class="simb" id="uuo-simbolo"></div>
+						<div class="nomb" id="uuo-nombre"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					
+					<div class="cel">
+						<div class="num" id="ce-numero"></div>
+						<div class="simb" id="ce-simbolo"></div>
+						<div class="nomb" id="ce-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="pr-numero"></div>
+						<div class="simb" id="pr-simbolo"></div>
+						<div class="nomb chik" id="pr-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="nd-numero"></div>
+						<div class="simb" id="nd-simbolo"></div>
+						<div class="nomb" id="nd-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="pm-numero"></div>
+						<div class="simb" id="pm-simbolo"></div>
+						<div class="nomb" id="pm-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="sm-numero"></div>
+						<div class="simb" id="sm-simbolo"></div>
+						<div class="nomb" id="sm-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="eu-numero"></div>
+						<div class="simb" id="eu-simbolo"></div>
+						<div class="nomb" id="eu-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="gd-numero"></div>
+						<div class="simb" id="gd-simbolo"></div>
+						<div class="nomb" id="gd-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="tb-numero"></div>
+						<div class="simb" id="tb-simbolo"></div>
+						<div class="nomb" id="tb-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="dy-numero"></div>
+						<div class="simb" id="dy-simbolo"></div>
+						<div class="nomb" id="dy-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="ho-numero"></div>
+						<div class="simb" id="ho-simbolo"></div>
+						<div class="nomb" id="ho-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="er-numero"></div>
+						<div class="simb" id="er-simbolo"></div>
+						<div class="nomb" id="er-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="tm-numero"></div>
+						<div class="simb" id="tm-simbolo"></div>
+						<div class="nomb" id="tm-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="yb-numero"></div>
+						<div class="simb" id="yb-simbolo"></div>
+						<div class="nomb" id="yb-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="lu-numero"></div>
+						<div class="simb" id="lu-simbolo"></div>
+						<div class="nomb" id="lu-nombre"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+				</div>
+				<div class="fil">
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+					
+					<div class="cel">
+						<div class="num" id="th-numero"></div>
+						<div class="simb" id="th-simbolo"></div>
+						<div class="nomb" id="th-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="pa-numero"></div>
+						<div class="simb" id="pa-simbolo"></div>
+						<div class="nomb chik" id="pa-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="u-numero"></div>
+						<div class="simb" id="u-simbolo"></div>
+						<div class="nomb" id="u-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="np-numero"></div>
+						<div class="simb" id="np-simbolo"></div>
+						<div class="nomb" id="np-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="pu-numero"></div>
+						<div class="simb" id="pu-simbolo"></div>
+						<div class="nomb" id="pu-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="am-numero"></div>
+						<div class="simb" id="am-simbolo"></div>
+						<div class="nomb" id="am-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="cm-numero"></div>
+						<div class="simb" id="cm-simbolo"></div>
+						<div class="nomb" id="cm-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="bk-numero"></div>
+						<div class="simb" id="bk-simbolo"></div>
+						<div class="nomb" id="bk-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="cf-numero"></div>
+						<div class="simb" id="cf-simbolo"></div>
+						<div class="nomb" id="cf-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="es-numero"></div>
+						<div class="simb" id="es-simbolo"></div>
+						<div class="nomb" id="es-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="fm-numero"></div>
+						<div class="simb" id="fm-simbolo"></div>
+						<div class="nomb" id="fm-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="md-numero"></div>
+						<div class="simb" id="md-simbolo"></div>
+						<div class="nomb chik" id="md-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="no-numero"></div>
+						<div class="simb" id="no-simbolo"></div>
+						<div class="nomb" id="no-nombre"></div>
+					</div>
+					<div class="cel">
+						<div class="num" id="lr-numero"></div>
+						<div class="simb" id="lr-simbolo"></div>
+						<div class="nomb" id="lr-nombre"></div>
+					</div>
+					<div class="cel ocul">
+						<div class="num"></div>
+						<div class="simb"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	<script src="js/json-elementos/elementos.js"></script>
+	<script src="js/json-elementos/show-elementos.js"></script>
+</body>
+</html>

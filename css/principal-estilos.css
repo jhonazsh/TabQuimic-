@@ -1,0 +1,169 @@
+.col-md-3,
+.col-xs-12,
+.col-sm-1{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.col-md-3{
+	background-color: rgb(61, 65, 63);
+	height: 700px;
+}
+
+.col-md-9{
+	background: #838383; /* Old browsers */
+	height: 700px;
+}
+
+.tablape{
+	margin-top: 30px;
+	width: 950px;
+	margin-left: 35px;
+}
+
+.fil{
+	margin-top: 1px;
+	width: 950px;
+	height: 50px;
+}
+
+.cel{
+	background-color: rgb(204, 204, 154);
+	margin-left: 1px;
+	margin-right: 1px;
+	width: 47px;
+	height: 47px;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.cel:hover{
+	cursor: pointer;
+}
+
+.ocul{
+	background-color: #838383;
+}
+
+.num{
+	margin-top: 2px;
+	width: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 10px;
+	font-weight: bold;
+	text-align: right;
+	font-size: 12px;
+}
+
+.simb{
+	margin-top: 1px;
+	width: 40px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+.nomb{
+	margin-top: 0px;
+	width: 40px;
+	font-size: 9px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.sepuno{
+	margin-left: 849px;
+}
+
+.sepdos{
+	margin-left: 531px;
+}
+
+.chik{
+	font-size: 8px;
+}
+
+.elemento{
+	width: 300px;
+	height: 250px;
+	margin-left: 29px;
+	margin-top: 20px;
+	background-color: rgb(63, 177, 99);
+	border-radius: 3px;
+}
+
+.e-muestra{
+	width: 260px;
+	height: 210px;
+	background-color: rgb(46, 41, 37);
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.btn-group{
+	margin-left: 80px;
+}
+
+.btn-default{
+	background-color: #6BB964;
+	color: white;
+	font-weight: bold;
+}
+
+
+.big-h-numero{
+	height: 30px;
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.big-h-simbolo{
+	height: 100px;
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 80px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.big-h-nombre{
+	height: 30px;
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+.gran-h,
+.gran-he,
+.gran-li,
+.gran-be,
+.gran-b,
+.gran-c,
+.gran-n,
+.gran-o,
+.gran-f,
+.gran-ne,
+.gran-na,
+.gran-mg,
+.gran-al,
+.gran-si,
+.gran-p{
+	display: none;
+}
+
+
+
