@@ -12,6 +12,12 @@ while (i < 118) {
 	$('.cel')[a].children[1].innerHTML = elementos[i].simbolo;
 	$('.cel')[a].children[2].innerHTML = elementos[i].nombre;
 
+	$( ".cel" ).each(function( a ) {
+		$(this).data('peso', elementos[a].peso)
+		console.log( a + ": " + $(this).text() );
+	});
+	
+
 	i++;
 
 }
@@ -26,8 +32,9 @@ function mostrar() {
 	$('.big-simbolo').html($this[1].innerHTML);
 	$('.big-nombre').html($this[2].innerHTML);
 
+	var a
+	$('.big-others').html($(this).data('peso'));
 
-	document.getElementById('big-others').innerHTML = elementos[0].peso
 }
 
 
