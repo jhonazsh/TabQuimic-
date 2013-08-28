@@ -25,6 +25,9 @@ function mostrar() {
 	$('.big-numero').html($this[0].innerHTML);
 	$('.big-simbolo').html($this[1].innerHTML);
 	$('.big-nombre').html($this[2].innerHTML);
+
+
+	document.getElementById('big-others').innerHTML = elementos[0].peso
 }
 
 

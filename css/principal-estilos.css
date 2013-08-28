@@ -160,7 +160,9 @@
 	display: inline;
 	height: 100px;
 	width: 110px;
-	text-align: right;
+	float: right;
+	padding-top: 30px;
+	padding-left: 40px;
 	color: white;
 }
 
