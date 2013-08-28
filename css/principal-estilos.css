@@ -115,7 +115,7 @@
 }
 
 
-.big-h-numero{
+.big-numero{
 	height: 30px;
 	width: 240px;
 	margin-left: auto;
@@ -126,7 +126,7 @@
 	text-align: right;
 }
 
-.big-h-simbolo{
+.big-simbolo{
 	height: 100px;
 	width: 240px;
 	margin-left: auto;
@@ -136,7 +136,7 @@
 	margin-top: 5px;
 }
 
-.big-h-nombre{
+.big-nombre{
 	height: 30px;
 	width: 240px;
 	margin-left: auto;
@@ -147,22 +147,7 @@
 }
 
 
-.gran-h,
-.gran-he,
-.gran-li,
-.gran-be,
-.gran-b,
-.gran-c,
-.gran-n,
-.gran-o,
-.gran-f,
-.gran-ne,
-.gran-na,
-.gran-mg,
-.gran-al,
-.gran-si,
-.gran-p{
-	display: none;
+.big {
 }
 
 

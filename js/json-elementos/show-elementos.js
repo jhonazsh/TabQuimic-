@@ -19,4 +19,13 @@ while (i < 118) {
 	i++;
 }
 
-$('.cel')
+$('.cel').on('mouseover', mostrar);
+
+function mostrar() {
+
+	$this = this.children;
+
+	$('.big-numero').html($this[0].innerHTML);
+	$('.big-simbolo').html($this[1].innerHTML);
+	$('.big-nombre').html($this[2].innerHTML);
+}
