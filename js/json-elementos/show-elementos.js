@@ -16,6 +16,11 @@ while (i < 118) {
 
 }
 
+$( ".cel" ).each(function( index ) {
+	$(this).data('peso', elementos[index].peso)
+	// console.log( index + ": " + $(this).text() );
+});
+
 
 $('.cel').on('mouseover', mostrar);
 
@@ -25,6 +30,10 @@ function mostrar() {
 	$('.big-numero').html($this[0].innerHTML);
 	$('.big-simbolo').html($this[1].innerHTML);
 	$('.big-nombre').html($this[2].innerHTML);
+
+	$('.big-others').html($(this).data('peso'));
+
+	console.log($(this).data('peso'));
 }
 
 
