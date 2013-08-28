@@ -7,7 +7,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/principal-estilos.css">
 	<script src="js/jquery-2.0.2.js"></script>
-	<script src="js/show-big-elementos.js"></script>
+	
 </head>
 <body>
 	<div class="row">
@@ -19,9 +19,12 @@
 				</div>
 				<div class="e-muestra">
 					<div class="big">
-						<div class="big-numero" id="big-h-num"></div>
-						<div class="big-simbolo" id="big-h-simb"></div>
-						<div class="big-nombre" id="big-h-nomb"></div>
+						<div class="big-numero"></div>
+						<div class="contenedor">
+							<div class="big-simbolo"></div>
+							<div class="big-others"></div>
+						</div>
+						<div class="big-nombre"></div>
 					</div>
 				</div>
 			</div>
@@ -46,6 +49,7 @@
 						<div class="num" id="h-numero"></div>
 						<div class="simb" id="h-simbolo"></div>
 						<div class="nomb" id="h-nombre"></div>
+						<div class="peso"></div>
 					</div>
 					
 					<div class="cel sepuno" id="he">
@@ -510,7 +514,7 @@
 
 				<br><br><br>
 
-				<div class="fil">
+				<div class="fil espacito">
 					
 					<div class="cel">
 						<div class="num" id="ce-numero"></div>
@@ -584,7 +588,7 @@
 					</div>
 				</div>
 
-				<div class="fil">
+				<div class="fil espacito">
 					
 					<div class="cel">
 						<div class="num" id="th-numero"></div>
@@ -661,8 +665,8 @@
 
 		</div>
 	</div>
-	
 	<script src="js/json-elementos/elementos.js"></script>
 	<script src="js/json-elementos/show-elementos.js"></script>
+	
 </body>
 </html>

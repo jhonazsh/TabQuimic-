@@ -1,7 +1,7 @@
 var elementos =[
-	{nombre:"Hidrogeno",numero:1,simbolo:"H"},
-	{nombre:"Helio",numero:2,simbolo:"He"},
-	{nombre:"Litio",numero:3,simbolo:"Li"},
+	{nombre:"Hidrogeno",numero:1,simbolo:"H",peso:"1.0079"},
+	{nombre:"Helio",numero:2,simbolo:"He",peso:"2.3"},
+	{nombre:"Litio",numero:3,simbolo:"Li",peso:"3.8"},
 	{nombre:"Berilio",numero:4,simbolo:"Be"},
 	{nombre:"Boro",numero:5,simbolo:"B"},
 	{nombre:"Carbono",numero:6,simbolo:"C"},
