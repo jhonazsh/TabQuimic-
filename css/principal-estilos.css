@@ -166,7 +166,10 @@
 	color: white;
 }
 
-.big {
+.men{
+	margin-top: 40px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 4px;
 }
 
 
