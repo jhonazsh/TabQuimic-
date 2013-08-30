@@ -159,12 +159,17 @@
 .big-others{
 	display: inline;
 	height: 100px;
-	width: 110px;
-	text-align: right;
+	width: 100px;
+	float: right;
+	padding-top: 30px;
+	padding-left: 20px;
 	color: white;
 }
 
-.big {
+.men{
+	margin-top: 40px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 4px;
 }
 
 
