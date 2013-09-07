@@ -34,7 +34,7 @@ $( ".cel" ).each(function( i ) {
 	$(this).find('.num').html(elementos[a].numero);
 	$(this).find('.nomb').html(elementos[a].nombre);
 
-}
+});
 
 $('.cel').on('mouseover', mostrar);
 
