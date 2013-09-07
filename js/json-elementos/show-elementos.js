@@ -63,8 +63,18 @@ function colorearMetaloide(){
 }
 
 
-$('#metales').on("click",mostrarMenu);
+$('#metales').on("click",mostrarMenuMetales);
+$('#nometales').on("click",mostrarMenuNoMetales);
+$('#metaloides').on("click",mostrarMenuMetaloides);
 
-function mostrarMenu(){
-	$('.submen').show(100);
+function mostrarMenuMetales(){
+	$('.submenuno').toggle(20);
+}
+
+function mostrarMenuNoMetales(){
+	$('.submendos').toggle(20);
+}
+
+function mostrarMenuMetaloides(){
+	$('.submentres').toggle(20);
 }

@@ -172,9 +172,23 @@
 	border-radius: 4px;
 }
 
-.submen{
+.submenuno, .submendos, .submentres{
 	display: none;
+	background-color: rgb(55, 67, 97);
 }
 
+.men .nav>li>a{
+	padding: 6px 15px;
+}
 
+#metales span{
+	float: right;
+}
 
+#nometales span{
+	float: right;
+}
+
+#metaloides span{
+	float: right;
+}
