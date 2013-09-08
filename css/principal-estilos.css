@@ -7,12 +7,12 @@
 
 .col-md-3{
 	background-color: rgb(61, 65, 63);
-	height: 700px;
+	height: 800px;
 }
 
 .col-md-9{
 	background: #838383; /* Old browsers */
-	height: 700px;
+	height: 800px;
 }
 
 .tablape{
@@ -95,7 +95,7 @@
 	height: 250px;
 	margin-left: 29px;
 	margin-top: 20px;
-	background-color: rgb(63, 177, 99);
+	background-color: rgb(77, 116, 77);
 	border-radius: 3px;
 }
 
@@ -174,11 +174,12 @@
 
 .submenuno, .submendos, .submentres{
 	display: none;
-	background-color: rgb(55, 67, 97);
+	background-color: rgb(77, 116, 77);
 }
 
 .men .nav>li>a{
-	padding: 6px 15px;
+	padding: 4px 15px;
+	color:rgb(117, 201, 109);
 }
 
 #metales span{
@@ -191,4 +192,12 @@
 
 #metaloides span{
 	float: right;
+}
+
+.submenuno .nav>li>a,.submentres .nav>li>a,.submendos .nav>li>a{
+	color: white;
+}
+
+.submenuno .nav>li>a:hover, .submendos .nav>li>a:hover, .submentres .nav>li>a:hover{
+	color: rgb(77, 116, 77);
 }

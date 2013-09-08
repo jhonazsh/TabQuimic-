@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="jquery-2.0.2.js"></script>
+	<script type="text/javascript">
+		$(document).on("ready",generar);
+
+		function generar() {
+			var nuevoHtml=[];
+			for(i=0; i<=17; i++){
+				nuevoHtml[i]="<div class='clasesita'></div>";	
+			}
+			$(".cuadro").html(nuevoHtml);
+
+			for(j=0;j<=15;j++){
+				$(".clasesita").eq(j).css('display','none');
+
+			}
+
+			$(".clasesita").eq(j+1).css('margin-left','725px');
+
+			for(j=j+3;j<=28;j++){
+				$(".clasesita").eq(j).css('display','none');
+
+			}
+
+			$(".clasesita").eq(j+1).css('margin-left','455px');
+
+			for(j=j+8;j<=46;j++){
+				$(".clasesita").eq(j).css('display','none');
+
+			}
+
+			$(".clasesita").eq(j+1).css('margin-left','455px');
+
+			for(i=0;i<=107;i++){
+				$('.clasesita').eq(i).html('H');
+			}
+		}
+
+
+	</script>
+	<style type="text/css">
+		.clasesita{
+			width: 40px;
+			height: 40px;
+			background-color: red;
+			margin-left: 5px;
+			margin-top: 5px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div class="cuadro"></div>
+	<div class="cuadro"></div>
+	<div class="cuadro"></div>
+	<div class="cuadro"></div>
+	<div class="cuadro"></div>
+	<div class="cuadro"></div>
+</body>
+</html>

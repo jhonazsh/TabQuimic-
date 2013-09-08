@@ -1,4 +1,5 @@
 
+/* Esta porcion de codigo llena cada cuadrito en la tabla periodica quimica */
 $( ".cel" ).each(function( i ) {
 
 	if ( i<57 ) { a = i;}
@@ -20,6 +21,9 @@ $( ".cel" ).each(function( i ) {
 
 });
 
+/*****************************************************************************/
+
+/* Con esta funcion se trata de mostrar a los elementos en su forma mas grande y detallada */
 $('.cel').on('mouseover', mostrar);
 
 function mostrar() {
@@ -30,51 +34,5 @@ function mostrar() {
 	$('.big-others').html($(this).data('peso'));
 }
 
-$('#metales').on('click',colorearMetal);
-$('#nometales').on('click',colorearNoMetal);
-$('#metaloides').on('click',colorearMetaloide);
+/*******************************************************************************************/
 
-
-function colorearMetal(){
-
-	$('.cel').each(function() {
-		if ($(this).data('grupo') == 'metales') {
-			$(this).css('background', 'rgb(195, 204, 231)');
-		}
-	});
-}
-
-function colorearNoMetal(){
-
-	$('.cel').each(function() {
-		if ($(this).data('grupo') == 'no metales') {
-			$(this).css('background', 'rgb(228, 228, 40)');
-		}
-	});
-}
-
-function colorearMetaloide(){
-
-	$('.cel').each(function() {
-		if ($(this).data('grupo') == 'metaloides') {
-			$(this).css('background', 'rgb(255, 255, 144)');
-		}
-	});
-}
-
-
-$('#metales').on("click",mostrarMenuMetales);
-$('#nometales').on("click",mostrarMenuNoMetales);
-$('#metaloides').on("click",mostrarMenuMetaloides);
-
-function mostrarMenuMetales(){
-	$('.submenuno').toggle(20);
-}
-
-function mostrarMenuNoMetales(){
-	$('.submendos').toggle(20);
-}
-
-function mostrarMenuMetaloides(){
-	$('.submentres').toggle(20);
-}
