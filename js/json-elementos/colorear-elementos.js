@@ -36,8 +36,7 @@ $('#nometales').on("click",mostrarMenuNoMetales);
 $('#metaloides').on("click",mostrarMenuMetaloides);
 
 function mostrarMenuMetales(){
-	$('#metales .glyphicon-chevron-down').removeClass('metales glyphicon-chevron-down').addClass('metales glyphicon-chevron-up');
-	
+	$('.glyphicon-chevron-down').eq(0).toggleClass('glyphicon-chevron-up');
 	$('.submenuno').toggle();
 }
 
