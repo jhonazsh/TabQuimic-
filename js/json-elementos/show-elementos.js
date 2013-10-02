@@ -13,6 +13,7 @@ $( ".cel" ).each(function( i ) {
 	$(this).data('simbolo', elementos[a].simbolo);
 	$(this).data('nombre', elementos[a].nombre);
 	$(this).data('peso', elementos[a].peso);
+	$(this).data('pertenece', elementos[a].pertenece);
 	$(this).data('grupo', elementos[a].grupo);
 
 	$(this).find('.simb').html(elementos[a].simbolo);

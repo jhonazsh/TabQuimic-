@@ -18,13 +18,17 @@
 .tablape{
 	margin-top: 30px;
 	width: 950px;
-	margin-left: 35px;
+	margin-left: 25px;
 }
 
 .fil{
 	margin-top: 1px;
-	width: 1000px;
+	width: 980px;
 	height: 50px;
+}
+
+.subfil{
+	width: 750px;
 }
 
 .cel{
@@ -84,7 +88,7 @@
 }
 
 .espacito{
-	margin-left: 159px;
+	margin-left: 180px;
 }
 
 .chik{
@@ -206,6 +210,7 @@
 
 .cel:hover{
 	background-color:rgb(183, 201, 114);
+	-webkit-transform: scale(0.97,0.97);
 }
 
 .num-grupo{
@@ -243,4 +248,18 @@
 	font-size: 20px;
 	color: rgb(156, 206, 66);
 	text-align: center;
+	text-shadow:0.5px 0.5px 0.5px #000;
+}
+
+.grup{
+	background: rgba(25, 61, 34, 0.43);
+	margin-left: 1px;
+	margin-right: 1px;
+	width: 47px;
+	height: 20px;
+	display: inline-block;
+	color: rgb(156, 206, 66);
+	text-align: center;
+	font-size: 15px;
+	text-shadow:0.5px 0.5px 0.5px #000;
 }
